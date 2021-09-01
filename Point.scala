@@ -31,8 +31,7 @@ case class Point(a: Double, b: Double) {
         * @return Point object
     */
     def invert: Point = {
-        var tp: Point = this.copy()
-        Point(tp.y, this.x)
+        Point(this.y, this.x)
     }
 }
 
